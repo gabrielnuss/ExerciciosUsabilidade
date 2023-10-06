@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cartao {
+    background-color: white;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cartao h1{
+    font-size: 24px;
+    color: black;
+}
+
+.cartao p{
+    font-size: 16px;
+    color: grey;
+}
+
+.contato{
+    margin-top: 20px;
+}
+
+.contato a {
+    font-weight: bold;
+}
